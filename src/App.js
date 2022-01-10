@@ -8,8 +8,10 @@ const App = () => {
 	return (
 		<div className='wrapper'>
 				<Header />
+				<div className='flex-container'>
 				<Nav />
 				<Content />
+				</div>
 		</div>
 	);
 }
